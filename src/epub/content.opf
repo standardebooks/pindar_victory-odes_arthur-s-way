@@ -50,9 +50,10 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2008105036</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">A collection of lyric poems celebrating the triumphs of athletes in various sporting events.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;The victory odes or epinikia were a series of poems composed by ancient Greek poet &lt;a href="https://standardebooks.org/ebooks/pindar"&gt;Pindar&lt;/a&gt; to commemorate the triumphs of athletes who competed in various Panhellenic games such as the Olympic, Pythian, Nemean, and Isthmian Games. Pindar’s works are known for their intricate complexity, which incorporates a mix of athlete praise, mythological references, moral reflections, and philosophical musings.&lt;/p&gt;
+			&lt;p&gt;The victory odes are considered to be the most complete works by Pindar that survived from antiquity, as the rest of his works only exist in papyrus fragments. These odes provide valuable insights into the ancient Greek world, as they reveal how the Greeks celebrated their athletic heroes and the cultural significance of athletic competition in ancient Greece.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/pindarinenglishv00pinduoft</dc:source>

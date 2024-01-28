@@ -1,2 +1,95 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+section[epub|type~="chapter"]{
+	break-after: page;
+}
+
+abbr[epub|type~="se:era"]{
+	font-variant: all-small-caps;
+}
+
+/* Bridgehead */
+[epub|type~="bridgehead"]{
+	display: inline-block;
+	font-style: italic;
+	max-width: 60%;
+	text-align: justify;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+	text-align: justify;
+}
+
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"] span{
+	display: inline;
+	padding: 0;
+	text-indent: 0;
+}
+/* End bridgehead */
+
+/* Choral sections */
+[epub|type~="chapter"] section + section{
+	margin-top: 1em;
+}
+
+[epub|type~="chapter"] section header + p{
+	margin: 0;
+}
+
+[epub|type~="chapter"] section header p{
+	font-style: italic;
+	text-align: right;
+}
+
+[epub|type~="chapter"] section header p::before{
+	content: "(";
+	font-style: normal;
+}
+
+[epub|type~="chapter"] section header p::after{
+	content: ")";
+	font-style: normal;
+}
+/* End choral sections */
+
+/* Poem, verse */
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
+p span.i2{
+	padding-left: 3em;
+	text-indent: -1em;
+}
+
+p span.i4{
+	padding-left: 5em;
+	text-indent: -1em;
+}
+
+p span.i6{
+	padding-left: 7em;
+	text-indent: -1em;
+}
+/* End poem, verse */

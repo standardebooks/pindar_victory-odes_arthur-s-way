@@ -1,7 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-section[epub|type~="chapter"]{
+[epub|type~="z3998:poem"]{
 	break-after: page;
 }
 
@@ -30,25 +30,25 @@ abbr[epub|type~="se:era"]{
 /* End bridgehead */
 
 /* Choral sections */
-[epub|type~="chapter"] section + section{
+[epub|type~="z3998:poem"] section + section{
 	margin-top: 1em;
 }
 
-[epub|type~="chapter"] section header + p{
+[epub|type~="z3998:poem"] section header + p{
 	margin: 0;
 }
 
-[epub|type~="chapter"] section header p{
+[epub|type~="z3998:poem"] section header p{
 	font-style: italic;
 	text-align: right;
 }
 
-[epub|type~="chapter"] section header p::before{
+[epub|type~="z3998:poem"] section header p::before{
 	content: "(";
 	font-style: normal;
 }
 
-[epub|type~="chapter"] section header p::after{
+[epub|type~="z3998:poem"] section header p::after{
 	content: ")";
 	font-style: normal;
 }

@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/pindar/victory-odes/arthur-s-way</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-01-29T17:24:49Z</dc:date>
+		<meta property="dcterms:modified">2024-01-29T17:24:49Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -50,16 +50,16 @@
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2008105036</meta>
 		<meta property="se:subject">Poetry</meta>
-		<dc:description id="description">A collection of lyric poems celebrating the triumphs of athletes in various sporting events.</dc:description>
+		<dc:description id="description">A collection of lyric poems celebrating the triumphs of ancient Greek athletes in various sporting events.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The victory odes or epinikia were a series of poems composed by ancient Greek poet &lt;a href="https://standardebooks.org/ebooks/pindar"&gt;Pindar&lt;/a&gt; to commemorate the triumphs of athletes who competed in various Panhellenic games such as the Olympic, Pythian, Nemean, and Isthmian Games. Pindar’s works are known for their intricate complexity, which incorporates a mix of athlete praise, mythological references, moral reflections, and philosophical musings.&lt;/p&gt;
-			&lt;p&gt;The victory odes are considered to be the most complete works by Pindar that survived from antiquity, as the rest of his works only exist in papyrus fragments. These odes provide valuable insights into the ancient Greek world, as they reveal how the Greeks celebrated their athletic heroes and the cultural significance of athletic competition in ancient Greece.&lt;/p&gt;
+			&lt;p&gt;The victory odes, or &lt;i&gt;epinikia&lt;/i&gt;, are a series of poems composed by the ancient Greek poet &lt;a href="https://standardebooks.org/ebooks/pindar"&gt;Pindar&lt;/a&gt; to commemorate the triumphs of athletes who competed in various Panhellenic games like the Olympic, Pythian, Nemean, and Isthmian Games. The poems are known for their intricate complexity, which combines praise for the atheletes, mythological references, moral reflections, and philosophical musings.&lt;/p&gt;
+			&lt;p&gt;The victory odes are considered to be the most complete works by Pindar that have survived from antiquity, as the rest of his works only exist in papyrus fragments. These odes provide valuable insights into the ancient Greek world, as they reveal how the Greeks celebrated their athletic heroes, and the cultural significance of athletic competition in ancient Greece.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/pindarinenglishv00pinduoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001845512</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">43104</meta>
+		<meta property="se:reading-ease.flesch">58.45</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pindar_victory-odes_arthur-s-way</meta>
 		<dc:creator id="author">Pindar</dc:creator>
 		<meta property="file-as" refines="#author">Pindar</meta>
@@ -89,6 +89,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>

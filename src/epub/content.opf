@@ -59,7 +59,7 @@
 		<dc:source>https://archive.org/details/pindarinenglishv00pinduoft</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/001845512</dc:source>
 		<meta property="se:word-count">43104</meta>
-		<meta property="se:reading-ease.flesch">58.45</meta>
+		<meta property="se:reading-ease.flesch">59.57</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pindar_victory-odes_arthur-s-way</meta>
 		<dc:creator id="author">Pindar</dc:creator>
 		<meta property="file-as" refines="#author">Pindar</meta>

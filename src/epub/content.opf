@@ -63,6 +63,7 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/pindar_victory-odes_arthur-s-way</meta>
 		<dc:creator id="author">Pindar</dc:creator>
 		<meta property="file-as" refines="#author">Pindar</meta>
+		<meta property="alternate-script" refines="#author">Πίνδαρος</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Pindar</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79138879</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>

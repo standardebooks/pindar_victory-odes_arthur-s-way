@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="the-pythian-odes.xhtml">
-		<ignore code="t-005">
+		<ignore code="y-037">
 			<line>4359</line>
 			<reason>Matched text is not dialog.</reason>
 		</ignore>

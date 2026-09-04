@@ -33,12 +33,12 @@
 		<meta property="dcterms:alternative" refines="#title">Odes</meta>
 		<meta property="dcterms:alternative" refines="#title">Epinicia</meta>
 		<meta property="dcterms:alternative" refines="#title">Epinikia</meta>
-		<dc:subject id="subject-1">Pindar -- Translations into English</dc:subject>
-		<dc:subject id="subject-2">Laudatory poetry, Greek -- Translations into English</dc:subject>
-		<dc:subject id="subject-3">Olympic games (Ancient) -- Poetry</dc:subject>
-		<dc:subject id="subject-4">Athletics -- Greece -- Poetry</dc:subject>
-		<dc:subject id="subject-5">Mythology, Greek -- Poetry</dc:subject>
-		<dc:subject id="subject-6">Games -- Greece -- Poetry</dc:subject>
+		<dc:subject id="subject-1">Pindar--Translations into English</dc:subject>
+		<dc:subject id="subject-2">Laudatory poetry, Greek--Translations into English</dc:subject>
+		<dc:subject id="subject-3">Olympic games (Ancient)--Poetry</dc:subject>
+		<dc:subject id="subject-4">Athletics--Greece--Poetry</dc:subject>
+		<dc:subject id="subject-5">Mythology, Greek--Poetry</dc:subject>
+		<dc:subject id="subject-6">Games--Greece--Poetry</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>

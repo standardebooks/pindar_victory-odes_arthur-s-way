@@ -74,13 +74,14 @@
 		<dc:contributor id="translator">Arthur S. Way</dc:contributor>
 		<meta property="file-as" refines="#translator">Way, Arthur S.</meta>
 		<meta property="schema:alternateName" refines="#translator">Arthur Sanders Way</meta>
-		<link href="https://en.wikipedia.org/wiki/Arthur_Way" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Arthur_S._Way" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81012085.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Gustave Courbet</dc:contributor>
 		<meta property="file-as" refines="#artist">Courbet, Gustave</meta>
+		<meta property="schema:alternateName" refines="#artist">Jean Désiré Gustave Courbet</meta>
 		<link href="https://en.wikipedia.org/wiki/Gustave_Courbet" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80057228.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>

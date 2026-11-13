@@ -74,7 +74,7 @@
 		<dc:contributor id="translator">Arthur S. Way</dc:contributor>
 		<meta property="file-as" refines="#translator">Way, Arthur S.</meta>
 		<meta property="schema:alternateName" refines="#translator">Arthur Sanders Way</meta>
-		<link href="https://en.wikipedia.org/wiki/Arthur_S._Way" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Arthur_Way" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n81012085.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
